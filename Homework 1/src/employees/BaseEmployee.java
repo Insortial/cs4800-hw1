@@ -3,10 +3,9 @@ package employees;
 public class BaseEmployee extends Employee {
     private int baseSalary;
 
-    public BaseEmployee(String firstName, String lastName, String SSN, int baseSalary)
+    public BaseEmployee()
     {
-        super(firstName, lastName, SSN);
-        this.baseSalary = baseSalary;
+        super();
     }
 
 

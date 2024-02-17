@@ -1,12 +1,11 @@
-package employees;
+package ships;
 
-public class CargoShip extends Ship{
+public class CargoShip extends Ship {
     private int cargoCapacity;
 
-    public CargoShip(String shipName, int shipYearBuilt, int cargoCapacity)
+    public CargoShip()
     {
-        super(shipName, shipYearBuilt);
-        this.cargoCapacity = cargoCapacity;
+        super();
     }
 
     public int getCargoCapacity() {

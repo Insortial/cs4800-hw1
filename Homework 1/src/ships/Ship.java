@@ -1,12 +1,11 @@
-package employees;
+package ships;
 
 public class Ship {
     private String shipName;
     private int shipYearBuilt;
 
-    public Ship(String shipName, int shipYearBuilt) {
-        this.shipName = shipName;
-        this.shipYearBuilt = shipYearBuilt;
+    public Ship()
+    {
     }
     public int getShipYearBuilt() {
         return shipYearBuilt;

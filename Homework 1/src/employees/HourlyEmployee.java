@@ -3,11 +3,9 @@ package employees;
 public class HourlyEmployee extends Employee{
     private int wage;
     private int noOfHoursWorked;
-    public HourlyEmployee(String firstName, String lastName, String SSN, int wage, int noOfHoursWorked)
+    public HourlyEmployee()
     {
-        super(firstName, lastName, SSN);
-        this.wage = wage;
-        this.noOfHoursWorked = noOfHoursWorked;
+        super();
     }
 
     public void setWage(int wage)

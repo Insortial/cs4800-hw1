@@ -2,10 +2,9 @@ package employees;
 
 public class SalariedEmployee extends Employee{
     private int weeklySalary;
-    public SalariedEmployee(String firstName, String lastName, String SSN, int weeklySalary)
+    public SalariedEmployee()
     {
-        super(firstName, lastName, SSN);
-        this.weeklySalary = weeklySalary;
+        super();
     }
 
     public void setWeeklySalary(int weeklySalary)

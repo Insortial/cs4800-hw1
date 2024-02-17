@@ -5,11 +5,8 @@ public class Employee {
     private String lastName;
     private String SSN;
 
-    public Employee(String firstName, String lastName, String SSN)
+    public Employee()
     {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.SSN = SSN;
     }
 
     public String getFirstName() {

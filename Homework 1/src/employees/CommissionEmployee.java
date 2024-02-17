@@ -4,11 +4,9 @@ public class CommissionEmployee extends Employee{
     private float commRate;
     private int grossSales;
 
-    public CommissionEmployee(String firstName, String lastName, String SSN, float commRate, int grossSales)
+    public CommissionEmployee()
     {
-        super(firstName, lastName, SSN);
-        this.commRate = commRate;
-        this.grossSales = grossSales;
+        super();
     }
 
     public void setCommRate(float commRate)

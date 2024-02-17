@@ -1,11 +1,10 @@
-package employees;
+package ships;
 
-public class CruiseShip extends Ship{
+public class CruiseShip extends Ship {
     private int maxPassengers;
 
-    public CruiseShip(String shipName, int shipYearBuilt, int maxPassengers) {
-        super(shipName, shipYearBuilt);
-        this.maxPassengers = maxPassengers;
+    public CruiseShip() {
+        super();
     }
 
     public int getMaxPassengers() {
